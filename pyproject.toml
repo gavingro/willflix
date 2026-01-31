@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "willflix"
+version = "0.1.0"
+description = "A short description of my project."
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=2.3.3",
+    "scikit-surprise>=1.1.4",
+    "implicit",
+
+]
+[tool.setuptools]
+package-dir = {"" = "src"}
